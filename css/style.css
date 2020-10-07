@@ -1,0 +1,42 @@
+body{
+    background-image: url("../img/mainBackground.jpg");
+    background-color: black;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: white
+}
+
+#summaryComp{
+    border-top:4px solid white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+table#summaryComp {
+    width: 70%;
+}
+
+table#summaryComp,
+table#summaryComp td
+{
+    border:1px solid white;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+#summaryComp img {
+    width:200px;
+    height: auto;
+}
+
+#sumAll{
+    width:200px;
+    background-color: yellow;
+    font-size: 1.22em;
+    padding:10px;
+    color:black;
+}
